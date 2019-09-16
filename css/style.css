@@ -32,7 +32,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     text-align: left;
-        
+
 }
 
 ::-webkit-scrollbar {
@@ -136,13 +136,26 @@ p.lead {
     padding: 0.6rem 2rem;
     border: 0;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     background-image: linear-gradient( 122deg, #40cfa2 0%, #1fd17e 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
-
+#notbook{
+    width: 28em;
+    max-width: none;
+}
+#iphone {
+    padding-left: 6em;
+}
+#iphoneperpe{
+    margin-left: -200px;
+    margin-top:-200px;
+}
+#rowPes{
+    width: 100%;
+    margin-left: 5em;
+}
 .btn-light {
     border-radius: 3px;
     background: #FFF;
@@ -359,13 +372,13 @@ header {
     height: 100px;
     border-radius: 50%;
     margin-bottom: 1.5rem;
-    background-color: #FFF;
-    color: #f14ca7;
+    color: #fdfdfd;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
-    font-weight: 300;
+    font-weight: 400;
     transition: all 0.3s ease;
+    background: linear-gradient(to bottom, #40CFA2 0%, rgb(113, 230, 193)100%);
 }
 
 @media (max-width:992px) {
@@ -375,15 +388,6 @@ header {
         font-size: 28px;
         line-height: 50px;
     }
-}
-
-.ui-steps li:hover .circle-icon {
-    background: linear-gradient(to bottom, #40CFA2 0%, rgb(113, 230, 193)100%);
-    background: linear-gradient(to bottom, #40CFA2 0%, rgb(113, 230, 193)100%);
-    background: linear-gradient(to bottom, #40CFA2 0%, rgb(113, 230, 193)100%);
-    background: linear-gradient(to bottom, #40CFA2 0%, rgb(113, 230, 193)100%);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
-    color: #FFF;
 }
 
 .ui-steps li {
