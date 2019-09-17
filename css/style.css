@@ -148,14 +148,7 @@ p.lead {
 #iphone {
     padding-left: 6em;
 }
-#iphoneperpe{
-    margin-left: -200px;
-    margin-top:-200px;
-}
-#rowPes{
-    width: 100%;
-    margin-left: 5em;
-}
+
 .btn-light {
     border-radius: 3px;
     background: #FFF;
@@ -390,14 +383,9 @@ header {
     }
 }
 
-.ui-steps li {
-    padding: 15px 0;
+.black{
+    color: #7a767a;
 }
-
-.ui-steps li:not(:last-child) {
-    border-bottom: 1px solid #f8e3f0;
-}
-
 .perspective-phone {
     position: relative;
 }
@@ -405,6 +393,7 @@ header {
 @media (min-width:992px) {
     .perspective-phone {
         margin-top: -150px;
+        margin-left: 1em
     }
 }
 
@@ -463,17 +452,28 @@ header {
 }
 .subtitulopreto{
     color:#7a767a;
+    text-align: center;
 }
 .testimonials-single {
     text-align: center;
     max-width: 80%;
     margin: 0 auto;
 }
-
+.gologo{
+    vertical-align:0%;
+    width: 1.4em;
+}
 .blockquote {
     color: #7a767a;
     font-weight: 300;
     text-align: justify;
+}
+.blockquotesobre{
+    color: #7a767a;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 20em;
+    margin-right: 20em;
 }
 
 .owl-next.disabled, .owl-prev.disabled {
