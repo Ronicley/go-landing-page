@@ -68,13 +68,16 @@ h1 {
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
 }
-
+.frequenteAsk{
+    margin-top: 1em;
+}
 h2 {
     font-size: 45px;
     font-weight: 300;
     color: #40CFA2;
     letter-spacing: -1px;
     margin-bottom: 1rem;
+    margin-top: 4px;
 }
 
 h3 {
@@ -357,7 +360,9 @@ header {
     margin-bottom: 1.5rem;
     background-color: #FFF;
 }
-
+.row #not{
+    margin-top: 7em;
+}
 .circle-icon {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
     padding: 10px;
@@ -392,8 +397,8 @@ header {
 
 @media (min-width:992px) {
     .perspective-phone {
-        margin-top: -150px;
-        margin-left: 1em
+        margin-top: -15em;
+        margin-left: -5em;
     }
 }
 
