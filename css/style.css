@@ -397,7 +397,6 @@ header {
 
 @media (min-width:992px) {
     .perspective-phone {
-        margin-top: -10em;
         margin-left: -5em;
     }
 }
