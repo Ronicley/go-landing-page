@@ -1,32 +1,5 @@
 @charset "UTF-8";
-/*
 
-Style   : MobApp CSS
-Version : 1.0
-Author  : Surjith S M
-URI     : https://surjithctly.in/
-
-Copyright © All rights Reserved 
-
-*/
-
-/*------------------------
-[TABLE OF CONTENTS]
-    
-1. GLOBAL STYLES
-2. NAVBAR
-3. HERO
-4. TABS
-5. TESTIMONIALS
-6. IMAGE GALLERY
-7. PRICING
-8. CALL TO ACTION
-9. FOOTER
-
-------------------------*/
-
-/* GLOBAL
-----------------------*/
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -195,8 +168,6 @@ p.lead {
     }
 }
 
-/* NAVBAR
-----------------------*/
 
 .nav-menu {
     padding: 1rem 0;
@@ -247,8 +218,6 @@ p.lead {
     }
 }
 
-/* HERO
-----------------------*/
 
 header {
     padding: 100px 0 0;
@@ -300,8 +269,7 @@ header {
     justify-content: center;
     justify-items: center;
 }
-/* FEATURES
-----------------------*/
+
 .gradient-fill:before {
     color: #40cfa2;
     background: -moz-linear-gradient(top, #40CFA2 0%, rgb(113, 230, 193) 100%);
@@ -401,8 +369,7 @@ header {
     }
 }
 
-/*  TABS
-----------------------*/
+
 
 .tab-content {
     border-bottom-right-radius: 3px;
@@ -445,8 +412,6 @@ header {
     color: #f14ca7;
 }
 
-/*  TESTIMONIALS
-----------------------*/
 
 .owl-carousel .owl-item img.client-img {
     width: 150px;
@@ -519,8 +484,7 @@ header {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
-/*  IMAGE GALLERY
-----------------------*/
+
 
 .img-gallery .owl-item {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
@@ -531,9 +495,6 @@ header {
 .img-gallery .owl-item.center {
     transform: scale(1);
 }
-
-/*  PRICING
-----------------------*/
 
 @media (max-width:992px) {
     .card-deck {
@@ -588,9 +549,6 @@ header {
     padding: 1.75rem;
 }
 
-/*  CALL TO ACTION
-----------------------*/
-
 .call-to-action {
     text-align: center;
     color: #FFF;
@@ -622,8 +580,6 @@ header {
     vertical-align: text-bottom;
 }
 
-/*  FOOTER
-----------------------*/
 
 .social-icons {
     text-align: right;
