@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
     <title>Go! Smartcity Marketplace</title>
 
@@ -21,6 +22,14 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript">var submitted = false;</script>
+    <script type="text/javascript">
+        $('#gform').on('submit', function (e) {
+            $('#gform *').fadeOut(2000);
+            $('#gform').prepend('Your submission has been processed...');
+        });
+    </script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -54,7 +63,8 @@
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
             <h1>Go! Smartcity Marketplace</h1>
-            <p class="tagline">Uma nova forma de comprar dentro da cidade. Através da cidade virtual, é possível explorar suas lojas favoritas sem sair de onde está.</p>
+            <p class="tagline">Uma nova forma de comprar dentro da cidade. Através da cidade virtual, é possível
+                explorar suas lojas favoritas sem sair de onde está.</p>
         </div>
         <div class="img-holder mt-3"><img src="images/cel.png" width="320" alt="phone" class="img-fluid"></div>
     </header>
@@ -120,7 +130,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/telaBackOffice.png"  alt="iphone" id="not" class="img-fluid">
+                    <img src="images/telaBackOffice.png" alt="iphone" id="not" class="img-fluid">
                 </div>
 
             </div>
@@ -151,7 +161,9 @@
                             </div>
                         </div>
 
-                        <p class="mb-4">Uma cidade virtualizada na palma da sua mão. Agora é possível vê-la em perspectiva e interagir como quiser com os estabelecimentos comerciais e serviços disponíveis.</p>
+                        <p class="mb-4">Uma cidade virtualizada na palma da sua mão. Agora é possível vê-la em
+                            perspectiva e interagir como quiser com os estabelecimentos comerciais e serviços
+                            disponíveis.</p>
                     </div>
                 </div>
             </div>
@@ -348,6 +360,42 @@
     <div class="light-bg py-5" id="contact">
         <div class="container">
             <div class="row">
+                <div class="col-md-7">
+
+                    <h5 class="h5contato">Quer ser um usuário beta e ter vantagens exclusivas?</h5>
+                    <h5 class="h5contatosub">Cadastre-se agora e acompanhe o Go! </h5>
+                    <div class="my-4">
+                        <form name="gform" id="gform" enctype="text/plain"
+                            action="https://docs.google.com/forms/d/e/1FAIpQLSe8eMGzvlDmCwI6GdMmp-cAlwdnU6k3gB5ujhWUN0a6xJwpIQ/viewform?"
+                            target="hidden_iframe" onsubmit="submitted=true;">
+                            <div class="form-group">
+                                <label>Nome</label>
+                                <input type="text" class="form-control" name="entry.1545486295" id="entry.1545486295"
+                                    placeholder="Digite seu nome">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control" name="entry.151835484" id="entry.151835484"
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label>O que você mais gosta de fazer no tempo livre?</label>
+                                <textarea class="form-control" name="entry.920973481" id="entry.920973481"
+                                    rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                                onload="if(submitted) {}"></iframe>
+                        </form>
+                    </div>
+                </div>
+                <div id="gocontact" class="col d-flex align-items-center">
+                    <img src="images/2.png" id='gocontact' width="200" alt="icon">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
                 <div class="col-lg-6 text-center text-lg-left">
                     <p class="mb-2"> <span class="ti-location-pin mr-2"></span> Quadra 104 norte, Avenida LO 2, 387-515,
                         1 andar, Sala 04.
@@ -365,14 +413,14 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
     </div>
     <!-- // end .section -->
     <footer class="my-5 text-center">
         <p class="mb-2"><small>COPYRIGHT © 2019. TODOS OS DIREITOS RESERVADOS.</small></p>
-        <p class="mb-2"><small>Developed by <a href="https://www.linkedin.com/in/ronicley-silva-2b6624132">Ronicley Silva de Sá </a></span></small></p>
+        <p class="mb-2"><small>Developed by <a href="https://www.linkedin.com/in/ronicley-silva-2b6624132">Ronicley
+                    Silva de Sá </a></span></small></p>
     </footer>
 
     <!-- jQuery and Bootstrap -->
