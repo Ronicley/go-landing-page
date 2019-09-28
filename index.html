@@ -243,8 +243,8 @@
                     <blockquote class="blockquote">Paraibano, mas com boa parte da sua vida morando em Palmas,
                         Brasília e João Pessoa, Gabriel teve a vivência de várias culturas. Aos 18 anos fundou uma loja
                         de roupas de grife e com estratégias de growth cresceu seu empreendimento 300% em 3 meses. Aos
-                        19 anos ingressou ao marketing multinível onde foi responsável por crescer uma rede de 3 para
-                        mais de 124 micro-franquiados em 1 ano. Aos 20, fundou uma marca de roupa chamada UseGaz, onde
+                        19 anos ingressou ao marketing multinível onde foi responsável por crescer uma rede de 3 para
+                        mais de 124 micro-franquiados em 1 ano. Aos 20, fundou uma marca de roupa chamada UseGaz, onde
                         seus produtos eram todos fabricados nos EUA.</blockquote>
 
                 </div>
@@ -255,10 +255,10 @@
                     <h6 class="subtitulopreto">Design Thinking na Universidade de Virgínia.</h6>
                     <blockquote class="blockquote">
                         Natural de Guaraí, Tocantins, mas com toda adolescência vivida em Palmas, aos 19 anos vislumbrou
-                        a oportunidade de em meio à alta de preços do mercado de eletrônicos no Brasil, fazer
-                        importações. No período em que esteve em atividade, foi um dos fundadores da loja GL importados,
-                        onde obteve crescimento de faturamento superior à 200% em 4 meses. Aos 22 anos, em contato
-                        com lobistas de investimentos, participou de diversas negociações, onde aprendeu na prática,
+                        a oportunidade de em meio à alta de preços do mercado de eletrônicos no Brasil, fazer
+                        importações. No período em que esteve em atividade, foi um dos fundadores da loja GL importados,
+                        onde obteve crescimento de faturamento superior à 200% em 4 meses. Aos 22 anos, em contato
+                        com lobistas de investimentos, participou de diversas negociações, onde aprendeu na prática,
                         alguns dos modos operantes.</blockquote>
 
                 </div>
@@ -269,8 +269,8 @@
                     <h6 class="subtitulopreto">Expertise em design de games e dominância no framework de desenvolvimento
                         mobile, Flutter.</h6>
                     <blockquote class="blockquote">Nascido em Araguaína, Tocantins, Samuel desde muito novo era
-                        apaixonado por tecnologia. Aos seus 20 anos, fundou a JV Eletro. Empresa focada em manutenção de
-                        componentes eletrônicos. Desde então, vem acumulando conhecimentos nos mais variados softwares e
+                        apaixonado por tecnologia. Aos seus 20 anos, fundou a JV Eletro. Empresa focada em manutenção de
+                        componentes eletrônicos. Desde então, vem acumulando conhecimentos nos mais variados softwares e
                         hardwares.</blockquote>
 
                 </div>
@@ -358,9 +358,17 @@
                     <h5 class="h5contato">Quer ser um usuário beta e ter vantagens exclusivas?</h5>
                     <h5 class="h5contatosub">Cadastre-se agora e acompanhe o Go! </h5>
                     <div class="my-4">
-                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-                       
-                        <form name="gform" id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLSe8eMGzvlDmCwI6GdMmp-cAlwdnU6k3gB5ujhWUN0a6xJwpIQ/viewform?usp=pp_url"
+                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                            onload="if(submitted) {}"></iframe>
+                        <script type="text/javascript">
+                            $('#gform').on('submit', function (e) {
+                                $('#gform *').fadeOut(2000);
+                                $('#gform').prepend('Enviado! 😎👌');
+                            });
+                        </script>
+
+                        <form name="gform" id="gform"
+                            action="https://docs.google.com/forms/d/e/1FAIpQLSe8eMGzvlDmCwI6GdMmp-cAlwdnU6k3gB5ujhWUN0a6xJwpIQ/formResponse?"
                             target="hidden_iframe" onsubmit="submitted=true;">
                             <div class="form-group">
                                 <label>Nome</label>
@@ -378,7 +386,7 @@
                                     rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
-                            
+
                         </form>
                     </div>
                 </div>
