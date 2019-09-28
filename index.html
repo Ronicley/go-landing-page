@@ -359,14 +359,7 @@
                     <h5 class="h5contatosub">Cadastre-se agora e acompanhe o Go! </h5>
                     <div class="my-4">
                         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-                            onload="if(submitted) {}"></iframe>
-                        <script type="text/javascript">
-                            $('#gform').on('submit', function (e) {
-                                $('#gform *').fadeOut(2000);
-                                $('#gform').prepend('Enviado! 😎👌');
-                            });
-                        </script>
-
+                            onload="if(submitted) {}"></iframe>                 
                         <form name="gform" id="gform"
                             action="https://docs.google.com/forms/d/e/1FAIpQLSe8eMGzvlDmCwI6GdMmp-cAlwdnU6k3gB5ujhWUN0a6xJwpIQ/formResponse?"
                             target="hidden_iframe" onsubmit="submitted=true;">
@@ -431,7 +424,12 @@
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
-
+    <script type="text/javascript">
+        $('#gform').on('submit', function (e) {
+            $('#gform *').fadeOut(2000);
+            $('#gform').prepend('Enviado! 😎👌');
+        });
+    </script>
 </body>
 
 </html>
