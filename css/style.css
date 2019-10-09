@@ -52,7 +52,9 @@ h2 {
     margin-bottom: 1rem;
     margin-top: 4px;
 }
-
+#contatoTitulo{
+    color: #959094 !important;
+}
 h3 {
     color: #40CFA2;
     font-size: 33px;
@@ -81,8 +83,9 @@ h5 {
     font-weight: 300;
     color: #959094;
 }
-#gocontact{
-    margin-left: 10%
+footer+div{
+    margin-left:2em;
+    margin-right: 2em;
 }
 p {
     color: #959094;
