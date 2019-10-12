@@ -435,8 +435,7 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
-                            <h5 class="h5contato"></h5>
+                        <div class="modal-body" id="feedbackEmpresa">
                             <div class="my-4">
                                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
                                     onload="if(submitted2) {}"></iframe>
@@ -534,7 +533,7 @@
     <script type="text/javascript">
         $('#gform2').on('submit', function (e) {
             $('#gform2').fadeOut(2000);
-            $('#gform2').prepend('Enviado! 😎👌');
+            $('#feedbackEmpresa').prepend('Enviado! 😎👌');
         });
     </script>
 </body>
